@@ -103,8 +103,18 @@
   filter: grayscale(0.3) sepia(0.6);
 }
 
+/* ex 8 */
+
 .ex-8-img {
   width: 500px;
+}
+
+.ex-8-img {
+  transition: 3s;
+}
+.ex-8-img:hover {
+  border-radius: 25px;
+  filter: grayscale(0.4) sepia(0.7);
 }
 
 .ex-9-img {
